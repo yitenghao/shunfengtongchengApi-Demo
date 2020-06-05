@@ -12,7 +12,7 @@ import (
 
 func main() {
 	go func(){
-		testcreateorder()
+		//testcreateorder()
 	//testprecreateorder()
 	//testCancelOrder()
 	//testAddOrderGratuityFee()
@@ -22,7 +22,7 @@ func main() {
 	//testChangeOrder()
 	//testRiderLatestPosition()
 	//testRiderViewV2()
-	//testGetCallbackInfo()
+	testGetCallbackInfo()
 	}()
 
 	{

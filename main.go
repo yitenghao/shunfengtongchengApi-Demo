@@ -11,19 +11,19 @@ import (
 )
 
 func main() {
-	//go func(){
-	//	testcreateorder()
+	go func(){
+		testcreateorder()
 	//testprecreateorder()
 	//testCancelOrder()
 	//testAddOrderGratuityFee()
 	//testGetOrderGratuityFee()
-	testListOrderFeed()
+	//testListOrderFeed()
 	//testReminderOrder()
 	//testChangeOrder()
 	//testRiderLatestPosition()
 	//testRiderViewV2()
 	//testGetCallbackInfo()
-	//}()
+	}()
 
 	{
 		http.HandleFunc("/change", chenge)

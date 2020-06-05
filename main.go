@@ -25,16 +25,16 @@ func main() {
 	//testGetCallbackInfo()
 	//}()
 
-	//{
-	//	http.HandleFunc("/change",chenge)
-	//	http.HandleFunc("/ok",ok)
-	//	http.HandleFunc("/cancel",cancel)
-	//	http.HandleFunc("/error",error)
-	//	err:=http.ListenAndServe(":9999",nil)
-	//	if err!=nil{
-	//		fmt.Println(err)
-	//	}
-	//}
+	{
+		http.HandleFunc("/change", chenge)
+		http.HandleFunc("/ok", ok)
+		http.HandleFunc("/cancel", cancel)
+		http.HandleFunc("/error", error)
+		err := http.ListenAndServe(":9999", nil)
+		if err != nil {
+			fmt.Println(err)
+		}
+	}
 
 }
 
